@@ -1,0 +1,140 @@
+@media all and (max-width: 1000px) {
+
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(media/BebasNeue-Regular.ttf);
+  }
+
+* {
+    letter-spacing: .3em;
+}
+
+p {
+    margin: 0;
+    margin-right: -.3em;
+    padding: 0;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    background-color: #000f0f;
+    font-family: 'BebasNeue';
+    color: #fff0f0;
+}
+
+.panel {
+    width: 100%;
+    height: 21rem;
+    font-size: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.paneltext {
+    background-color: #000f0f;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+}
+
+#pvp {
+    background-image: url(media/pvp.jpg);
+    background-position-y: -300px;
+}
+
+#pve {
+    background-image: url(media/lichking.jpg);
+    background-position-y: -200px;
+}
+
+#community {
+    background-image: url(media/community.jpg);
+    background-position-y: -200px;
+}
+
+#signup {
+    height: 21rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#signup img {
+    max-width: 10rem;
+}
+
+nav {
+    min-height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+nav > a > p {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+nav > a > p, nav > a > img {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/*  
+nav > a > span:hover {
+    font-size: 1.5rem;
+}*/
+
+/*   
+nav > a:hover {
+    filter: brightness(0.5);
+}*/
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: none;
+    margin: none;
+}
+
+nav .logo {
+    max-height: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+main {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .logo {
+    max-height: 40rem;
+}
+
+main .title {
+    font-size: 5.5rem;
+    margin-bottom: 8rem;
+    text-transform: uppercase;
+}
+
+.info {
+    font-size: 4rem;
+}
